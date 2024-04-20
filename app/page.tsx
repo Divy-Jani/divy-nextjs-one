@@ -1,3 +1,6 @@
+import { LuChevronLast } from "react-icons/lu";
+import { LuChevronFirst } from "react-icons/lu";
+
 export default function Home(){
   return (
     <div className="fixed top-4 left-4 right-4 bottom-4 bg-white red-100 z-50 rounded-lg">
@@ -56,7 +59,182 @@ export default function Home(){
             Report_Generated_one.csv
           </div>
          
-    </div>
+          <div className="pr-16 flex-grow text-right">
+               <button>
+               <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><g fill="#292d32"><path d="m9 17.75c-.1 0-.19-.02-.29-.06-.28-.11-.46-.39-.46-.69v-6c0-.41.34-.75.75-.75s.75.34.75.75v4.19l.72-.72c.29-.29.77-.29 1.06 0s.29.77 0 1.06l-2 2c-.14.14-.34.22-.53.22z"/><path d="m8.99945 17.7499c-.19 0-.38-.07-.53-.22l-2-2c-.29-.29-.29-.77 0-1.06s.77-.29 1.06 0l2 2c.29.29.29.77 0 1.06-.15.15-.34.22-.53.22z"/><path d="m15 22.75h-6c-5.43 0-7.75-2.32-7.75-7.75v-6c0-5.43 2.32-7.75 7.75-7.75h5c.41 0 .75.34.75.75s-.34.75-.75.75h-5c-4.61 0-6.25 1.64-6.25 6.25v6c0 4.61 1.64 6.25 6.25 6.25h6c4.61 0 6.25-1.64 6.25-6.25v-5c0-.41.34-.75.75-.75s.75.34.75.75v5c0 5.43-2.32 7.75-7.75 7.75z"/><path d="m22 10.75h-4c-3.42 0-4.75-1.33001-4.75-4.75001v-4c0-.3.18-.58.46-.69.28-.12.6-.05.82.16l8 8c.21.21.28.54001.16.82001s-.39.46-.69.46zm-7.25-6.94001v2.19c0 2.58.67 3.25 3.25 3.25h2.19z"/></g></svg>
+    
+                </button>     
+          </div>    
+        </div>
+
+
+        <div className=" flex space-x-20  pt-8 w-full  px-8 py-4 text-gray-700 font-medium text-sm">
+          
+            <div className="flex flex-col ">
+            <div>
+              20.04.2024
+            </div>
+            <div className="text-xs pt-2 text-gray-400">
+              11:11 AM  
+            </div>
+          </div>
+
+          <div>
+            Report_Generated_two.csv
+          </div>
+         
+          <div className="pr-16 flex-grow text-right">
+               <button>
+               <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><g fill="#292d32"><path d="m9 17.75c-.1 0-.19-.02-.29-.06-.28-.11-.46-.39-.46-.69v-6c0-.41.34-.75.75-.75s.75.34.75.75v4.19l.72-.72c.29-.29.77-.29 1.06 0s.29.77 0 1.06l-2 2c-.14.14-.34.22-.53.22z"/><path d="m8.99945 17.7499c-.19 0-.38-.07-.53-.22l-2-2c-.29-.29-.29-.77 0-1.06s.77-.29 1.06 0l2 2c.29.29.29.77 0 1.06-.15.15-.34.22-.53.22z"/><path d="m15 22.75h-6c-5.43 0-7.75-2.32-7.75-7.75v-6c0-5.43 2.32-7.75 7.75-7.75h5c.41 0 .75.34.75.75s-.34.75-.75.75h-5c-4.61 0-6.25 1.64-6.25 6.25v6c0 4.61 1.64 6.25 6.25 6.25h6c4.61 0 6.25-1.64 6.25-6.25v-5c0-.41.34-.75.75-.75s.75.34.75.75v5c0 5.43-2.32 7.75-7.75 7.75z"/><path d="m22 10.75h-4c-3.42 0-4.75-1.33001-4.75-4.75001v-4c0-.3.18-.58.46-.69.28-.12.6-.05.82.16l8 8c.21.21.28.54001.16.82001s-.39.46-.69.46zm-7.25-6.94001v2.19c0 2.58.67 3.25 3.25 3.25h2.19z"/></g></svg>
+    
+                </button>     
+          </div>    
+        </div>
+
+
+
+        <div className=" flex space-x-20  pt-8 w-full  px-8 py-4 text-gray-700 font-medium text-sm">
+          
+            <div className="flex flex-col ">
+            <div>
+              20.04.2024
+            </div>
+            <div className="text-xs pt-2 text-gray-400">
+              11:11 AM  
+            </div>
+          </div>
+
+          <div>
+            Report_Generated_three.csv
+          </div>
+         
+          <div className="pr-16 flex-grow text-right">
+               <button>
+               <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><g fill="#292d32"><path d="m9 17.75c-.1 0-.19-.02-.29-.06-.28-.11-.46-.39-.46-.69v-6c0-.41.34-.75.75-.75s.75.34.75.75v4.19l.72-.72c.29-.29.77-.29 1.06 0s.29.77 0 1.06l-2 2c-.14.14-.34.22-.53.22z"/><path d="m8.99945 17.7499c-.19 0-.38-.07-.53-.22l-2-2c-.29-.29-.29-.77 0-1.06s.77-.29 1.06 0l2 2c.29.29.29.77 0 1.06-.15.15-.34.22-.53.22z"/><path d="m15 22.75h-6c-5.43 0-7.75-2.32-7.75-7.75v-6c0-5.43 2.32-7.75 7.75-7.75h5c.41 0 .75.34.75.75s-.34.75-.75.75h-5c-4.61 0-6.25 1.64-6.25 6.25v6c0 4.61 1.64 6.25 6.25 6.25h6c4.61 0 6.25-1.64 6.25-6.25v-5c0-.41.34-.75.75-.75s.75.34.75.75v5c0 5.43-2.32 7.75-7.75 7.75z"/><path d="m22 10.75h-4c-3.42 0-4.75-1.33001-4.75-4.75001v-4c0-.3.18-.58.46-.69.28-.12.6-.05.82.16l8 8c.21.21.28.54001.16.82001s-.39.46-.69.46zm-7.25-6.94001v2.19c0 2.58.67 3.25 3.25 3.25h2.19z"/></g></svg>
+    
+                </button>     
+          </div>    
+        </div>
+
+
+        
+        <div className=" flex space-x-20  pt-8 w-full  px-8 py-4 text-gray-700 font-medium text-sm">
+          
+            <div className="flex flex-col ">
+            <div>
+              20.04.2024
+            </div>
+            <div className="text-xs pt-2 text-gray-400">
+              11:11 AM  
+            </div>
+          </div>
+
+          <div>
+            Report_Generated_four.csv
+          </div>
+         
+          <div className="pr-16 flex-grow text-right">
+               <button>
+               <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><g fill="#292d32"><path d="m9 17.75c-.1 0-.19-.02-.29-.06-.28-.11-.46-.39-.46-.69v-6c0-.41.34-.75.75-.75s.75.34.75.75v4.19l.72-.72c.29-.29.77-.29 1.06 0s.29.77 0 1.06l-2 2c-.14.14-.34.22-.53.22z"/><path d="m8.99945 17.7499c-.19 0-.38-.07-.53-.22l-2-2c-.29-.29-.29-.77 0-1.06s.77-.29 1.06 0l2 2c.29.29.29.77 0 1.06-.15.15-.34.22-.53.22z"/><path d="m15 22.75h-6c-5.43 0-7.75-2.32-7.75-7.75v-6c0-5.43 2.32-7.75 7.75-7.75h5c.41 0 .75.34.75.75s-.34.75-.75.75h-5c-4.61 0-6.25 1.64-6.25 6.25v6c0 4.61 1.64 6.25 6.25 6.25h6c4.61 0 6.25-1.64 6.25-6.25v-5c0-.41.34-.75.75-.75s.75.34.75.75v5c0 5.43-2.32 7.75-7.75 7.75z"/><path d="m22 10.75h-4c-3.42 0-4.75-1.33001-4.75-4.75001v-4c0-.3.18-.58.46-.69.28-.12.6-.05.82.16l8 8c.21.21.28.54001.16.82001s-.39.46-.69.46zm-7.25-6.94001v2.19c0 2.58.67 3.25 3.25 3.25h2.19z"/></g></svg>
+    
+                </button>     
+          </div>    
+        </div>
+
+
+
+        
+        <div className=" flex space-x-20  pt-8 w-full  px-8 py-4 text-gray-700 font-medium text-sm">
+          
+            <div className="flex flex-col ">
+            <div>
+              20.04.2024
+            </div>
+            <div className="text-xs pt-2 text-gray-400">
+              11:11 AM  
+            </div>
+          </div>
+
+          <div>
+            Report_Generated_five.ccsv
+          </div>
+         
+          <div className="pr-16 flex-grow text-right">
+               <button>
+               <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><g fill="#292d32"><path d="m9 17.75c-.1 0-.19-.02-.29-.06-.28-.11-.46-.39-.46-.69v-6c0-.41.34-.75.75-.75s.75.34.75.75v4.19l.72-.72c.29-.29.77-.29 1.06 0s.29.77 0 1.06l-2 2c-.14.14-.34.22-.53.22z"/><path d="m8.99945 17.7499c-.19 0-.38-.07-.53-.22l-2-2c-.29-.29-.29-.77 0-1.06s.77-.29 1.06 0l2 2c.29.29.29.77 0 1.06-.15.15-.34.22-.53.22z"/><path d="m15 22.75h-6c-5.43 0-7.75-2.32-7.75-7.75v-6c0-5.43 2.32-7.75 7.75-7.75h5c.41 0 .75.34.75.75s-.34.75-.75.75h-5c-4.61 0-6.25 1.64-6.25 6.25v6c0 4.61 1.64 6.25 6.25 6.25h6c4.61 0 6.25-1.64 6.25-6.25v-5c0-.41.34-.75.75-.75s.75.34.75.75v5c0 5.43-2.32 7.75-7.75 7.75z"/><path d="m22 10.75h-4c-3.42 0-4.75-1.33001-4.75-4.75001v-4c0-.3.18-.58.46-.69.28-.12.6-.05.82.16l8 8c.21.21.28.54001.16.82001s-.39.46-.69.46zm-7.25-6.94001v2.19c0 2.58.67 3.25 3.25 3.25h2.19z"/></g></svg>
+    
+                </button>     
+          </div>    
+        </div>
+
+
+        <hr className="w-full my-4  bg-gray-300"></hr>
+
+        <div className="flex justify-center space-x-20">
+        <div className="flex text-xs  space-x-4 items-center justify-arround ">
+              <div>
+                  <button>
+                  <LuChevronFirst />
+                  </button>
+                </div>
+
+                <div>
+                  Prev
+                </div>
+                <div className=" border-solid border-1 border-gray py-1.5 px-3 rounded bg-orange-600 text-white" >
+                  1
+                </div>
+                <div className=" border-solid border-2 border-gray py-1.5 px-3 rounded" >
+                  2
+                </div>
+                <div className=" border-solid border-2 border-gray py-1.5 px-3 rounded" >
+                  3
+                </div>
+                <div className=" border-solid border-2 border-gray py-1.5 px-3 rounded" >
+                  4
+                </div>
+                <div className=" border-solid border-2 border-gray py-1.5 px-3 rounded" >
+                  5
+                </div>
+
+                <div >
+                  Next
+                </div>
+
+                  <div>
+                    <button>
+                    <LuChevronLast />
+                    </button>
+                  </div>
+              </div>
+
+
+
+
+              <div className="flex text-xs items-center space-x-4">
+                <div>
+                  Rows per page
+                </div>
+
+                <div className=" border-solid border-2 items-center border-gray py-1 px-3 rounded flex space-x-4" >
+                  <div> 10 </div>
+                  <div> 
+               <button className="pt-1"> 
+               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
+                       <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+               </button>
+
+                  </div>
+                </div>
+
+
+
+              </div>
+
+
+
+        </div>
        </div>
    
 
